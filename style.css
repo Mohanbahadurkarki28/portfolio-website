@@ -1,0 +1,76 @@
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 3fr 4fr;
+  align-items: stretch;
+}
+.column {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  min-height: 10em;
+}
+h3 {
+  width: 80%;
+  text-align: left;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  white-space: nowrap;
+  margin-right: 100px;
+}
+
+ul li a:hover {
+  color: #c7940a;
+}
+input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 70%;
+    border-radius: 1px;
+    margin-bottom: 1px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  .socialicon{
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  }
+  .socialicon a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+
+  }
+
+  .socialicon a:hover{
+    background-color: #1e0606;
+    transition: 0.5s;
+  }
+  
+  .footerbutton{
+    display: flex;
+    justify-content: center;
+  }
