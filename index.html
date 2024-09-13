@@ -3,170 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Bahadur Karki</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Mohan Developer Portfolio</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family:'poppins' sans-serif;
-        }
-        nav{
-            display: flex;
-            justify-content:space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-        }
-        nav ul{
-            display: flex;
-            justify-content: space-around;
-        }
-        nav ul li{
-            list-style: none;
-            margin:0 10px;
-        }
-        nav ul li a{
-            list-style: none;
-            color: white;
-        }
-        nav ul li a:hover{
-            list-style: none;
-            color:rgb(153, 153, 226);
-            font-size: 1.2rem;
-        }
-
-        .left{
-           font-size: 2rem; 
-        }
-        .firstsection{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 130px 0;
-        }
-        .fisrtsection> div{
-            width: 30%;
-        }
-        .leftsection{
-            font-size: 3rem;
-          
-        }
-        .rightsection{
-            float: right;
-            position: relative;
-            width: 20%;
-            height: max-content;
-            
-        }
-      
-        .purple{
-            color: rgb(166, 92, 236);
-        }
-        .text-gray{
-            color: gray;
-        }
-        #element{
-            color: rgb(166, 92, 236);
-        }
-        main hr{
-            border: 0;
-            background-color:white;
-            height: 1.2px;
-            margin: 60px 84px;
-        }
-        .secondsection h1{
-            font-size: 1.9rem;
-        }
-    
-    </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="left">Mohan's Portfolio</div>
-            <div>
-                <ul>
-                   <li><a href="/">Home</a></li>
-                   <li><a href="/">About</a></li>
-                   <li><a href="/">Services</a></li>
-                   <li><a href="/">Projects</a></li>
-                   <li><a href="/">Contact Me</a></li>
-                </ul>
-            </div>
+<!--For Hero section-->
+     <header>
+        <nav class="container">
+            <div class="logo">Mohan Portfolio</div>
+            <ul>
+                <a href="#hero">
+                    <li>Home</li>
+                </a>
+                <a href="#Projects">
+                    <li>Projects</li>
+                </a>
+                <a href="#Contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
         </nav>
-    </header>
-    <main>
-        <section class="firstsection">
-            <div class="leftsection">
-                Hi, My name is <span class="purple">Mohan</span> 
-                <div>and i am a passionate</div>
-                <span id="element"></span>
-            </div>
-            
-            <div class="rightsection">
-            <img src="./photo/IMG_5474-removebg.png" height="70%" width="90%">
+     </header>
+     <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero_image animate__animated animate__bounceInLeft">
+                    <img src="./images/hero.png" alt="Mohan photo"/>
+                </div>
+                <div class="hero_content">
+                    <h1>
+                        <span class="hi_text">Hi</span> , I am 
+                        <br>
+                        <span class="name_text">Mohan Bahadur Karki</span>
+                    </h1>
+                <h2>Computer Engineer</h2>
+                </div>
             </div>
         </section>
-        <hr>
-        <section class="secondsection"></section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed('#element', {
-        strings: ['Frontend Developer', 'AWS Certified Cloud Practitioner'],
-        typeSpeed: 50,
-      });
-    </script>
-    <footer>
-           
-            <div class="row primary">
-                <div class="column about">
-                  <h3>Connect:</h3>
-                    <p>Author: Mohan Bahadur Karki<br>
-                    <a href="">mohankarki86555@gmail.com</a></p>
+         <!--For Project Section-->
+        <section id="project">
+            <h2>Recent  Projects</h2>
+            <div class="container">
+                <div class="project_container">
+                    <div class="grid_item">
+                        <div class="card">
+                            <img src="./images/1.png" alt="project 1">
+                            <div class="card_content">
+                                <h3>Amazon-clone</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item">
+                        <div class="card">
+                            <img src="./images/2.png" alt="project 2">
+                            <div class="card_content">
+                                <h3>myntra-clone</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item">
+                        <div class="card">
+                            <img src="./images/3.png" alt="project 3">
+                            <div class="card_content">
+                                <h3>Parallax-website</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="Footercontainer">
-                  <h3>Social Media Links:</h3>
-                  <div class="socialicon">
+            </div>
+        </section>
+        <!--contact section-->
+        <section id="contact">
+            <div class="container">
+              <h2>Let's Connect... </h2>
+              <div class="top_contact">
+                <div class="contact_way">
+                    <a href="https://www.linkedin.com/in/mohanbahadurkarki28/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <div class="contact_way">
                     <a href="https://www.facebook.com/Mohanbahadurkarki28/" target="_blank">
                         <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="contact_way">
                     <a href="https://www.instagram.com/mohanbahadurkarki28/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/mohanbahadurkarki28/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Mohanbahadurkarki28" target="_blank">
-                        <i class="fa-brands fa-github"></i></a>
-                    <a href="https://x.com/Mohankarki28" target="_blank">
-                        <i class="fa-solid fa-x"></i></a>
-                    </div>
-
+                    <i class="fa-brands fa-instagram"></i></a> 
                 </div>
-              
-                <div class="inquiry">
-                  <h3>Ask your Inquiry:</h3>
-                  <div>
-                    <input type="text" placeholder="Write a Message" />
-                    <button>Submit</button>
-                  </div>
-                </div>
+                <div class="contact_way">
+                <a href="https://github.com/Mohanbahadurkarki28" target="_blank">
+                    <i class="fa-brands fa-github"></i></a>
               </div>
-              <div class="footerbutton">
-                <p>Copyright &copy;2024 </p>
-
               </div>
-              
-    </footer>
+            </div>
+          </section>
+     </main>
+     <footer>
+        <div class="container">Copyright &copy;2024 Mohan Bahadur Karki</div>
+      </footer>
 </body>
 </html>
