@@ -1,4 +1,4 @@
-A portfolio website using HTML and CSS effectively showcases my skills, 
-projects, and experience. Mobile optimization will be added later.
-![1](https://github.com/user-attachments/assets/6b63fece-7bb1-48d1-af98-7da77da16edb)
-![2](https://github.com/user-attachments/assets/c9a7f557-c62d-473d-8975-091913e98e56)
+A mobile-optimized portfolio showcasing modern web development skills, 
+featuring responsive design, interactive elements, and a sleek user interface.
+![1](https://github.com/user-attachments/assets/3d2d76d1-b416-4e00-9eb3-547882159977)
+![2](https://github.com/user-attachments/assets/c6025d46-db0f-46d5-ae5f-1200e492bb94)
