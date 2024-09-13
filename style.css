@@ -106,14 +106,14 @@ nav li:hover{
     border-right: 0.1em solid white;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing{
     from{
         width: 0;
     }
     to{
-        width: 55% ;
+        width: 72% ;
     }
 }
 @keyframes blink-caret{
