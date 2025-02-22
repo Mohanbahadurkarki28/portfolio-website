@@ -843,7 +843,7 @@ section.active{
         order: 1;
     }
 
-    .contact-box .field-box{
+    .contact-box {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -891,6 +891,6 @@ section.active{
     .contact-box h2{
         font-size: 3.5rem;
     }
-    
+
 }
 
