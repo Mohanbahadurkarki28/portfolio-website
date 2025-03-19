@@ -101,13 +101,21 @@ const activePortfolio = () => {
 }
 
 arrowRight.addEventListener('click', () => {
+<<<<<<< HEAD
     if (index < 4){
+=======
+    if (index < 5){
+>>>>>>> 34d6f1f (project added)
         index++
         arrowLeft.classList.remove('disabled')
 
     }
     else{
+<<<<<<< HEAD
         index = 4
+=======
+        index = 5
+>>>>>>> 34d6f1f (project added)
         arrowRight.classList.add('disabled')
     }
     activePortfolio()
