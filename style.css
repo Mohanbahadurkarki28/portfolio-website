@@ -854,6 +854,9 @@ section.active{
         width: 30rem;
         height: 30rem;
     }
+    .last_name{
+        margin-left: 10rem;
+    }
 
     .contact-box .field-box {
         grid-template-columns: 1fr
@@ -864,6 +867,9 @@ section.active{
     html{
         font-size: 50%;
     }
+    .last_name{
+        margin-left: 10rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -873,6 +879,10 @@ section.active{
     .resume-box .desc,
     .resume-detail.about .resume-item{
         text-align: center;
+    }
+
+    .last_name{
+        margin-left: 10rem;
     }
 
     .home-detail.btn-sci{
